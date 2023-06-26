@@ -19,7 +19,7 @@ class MemoryGameMenu:
 
         self.show_main_menu()
 
-    def show_main_menu(self):
+    def show_main_menu(self): #Przyciski w menu głównym
         self.clear_frame()
 
         self.current_frame = tk.Frame(self.root, bg=self.frame_color)
@@ -55,7 +55,7 @@ class MemoryGameMenu:
 
 
 
-    def show_create_board_menu(self):
+    def show_create_board_menu(self): #Przyciski w tworzeniu własnej planszy
         self.clear_frame()
 
         self.current_frame = tk.Frame(self.root,bg=self.frame_color )
@@ -86,7 +86,7 @@ class MemoryGameMenu:
         except ValueError:
             messagebox.showerror("Podaj liczbe")
 
-    def show_difficulty_menu(self):
+    def show_difficulty_menu(self): #Przyciski w wyborze trudności
         self.clear_frame()
 
         self.current_frame = tk.Frame(self.root, bg=self.frame_color)
@@ -198,13 +198,13 @@ class MemoryGameMenu:
         back_button = tk.Button(self.current_frame, text="Wróć", command=self.go_back)
         back_button.grid(row=size, column=0, columnspan=size, pady=10)
 
-    def go_back(self):
+    def go_back(self): #Powrót
         self.moves_label.destroy()
         self.timer_label.destroy()
         self.end = None
         self.show_main_menu()
 
-    def start_timer(self):
+    def start_timer(self): #Timer
         self.update_timer_label()
 
     def update_timer_label(self):
