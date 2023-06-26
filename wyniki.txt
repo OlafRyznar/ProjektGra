@@ -1,0 +1,6 @@
+Rozmiar planszy: 2 | Czas: 11 sekund | Ruchy: 11
+Rozmiar planszy: 4 | Czas: 45 sekund | Ruchy: 43
+Rozmiar planszy: 4 | Czas: 42 sekund | Ruchy: 39
+Rozmiar planszy: 2 | Czas: 3 sekund | Ruchy: 5
+Rozmiar planszy: 2 | Czas: 4 sekund | Ruchy: 5
+Rozmiar planszy: 4 | Czas: 28 sekund | Ruchy: 27
